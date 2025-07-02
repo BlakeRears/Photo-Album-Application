@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SlideshowController">
+   <children>
+      <ImageView fx:id="imageView" fitHeight="233.0" fitWidth="259.0" layoutX="171.0" layoutY="53.0" pickOnBounds="true" preserveRatio="true" />
+      <Button layoutX="355.0" layoutY="288.0" mnemonicParsing="false" onAction="#nextButton" prefHeight="39.0" prefWidth="61.0" text="Next">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Button>
+      <Label layoutX="216.0" text="Slideshow">
+         <font>
+            <Font name="System Bold Italic" size="36.0" />
+         </font>
+      </Label>
+      <Button layoutX="186.0" layoutY="288.0" mnemonicParsing="false" onAction="#backButton" prefHeight="39.0" prefWidth="61.0" text="Back">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Button>
+      <Button layoutX="14.0" layoutY="356.0" mnemonicParsing="false" onAction="#exitButton" prefHeight="30.0" prefWidth="114.0" text="Exit slideshow">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
